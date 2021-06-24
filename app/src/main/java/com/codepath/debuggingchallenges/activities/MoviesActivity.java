@@ -36,7 +36,6 @@ public class MoviesActivity extends AppCompatActivity {
         movies = new ArrayList<>();
         adapter = new MoviesAdapter(movies);
         // Create the adapter to convert the array to views
-        MoviesAdapter adapter = new MoviesAdapter(movies);
 
         // Attach the adapter to a ListView
         rvMovies.setAdapter(adapter);
